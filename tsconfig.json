@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "es6", // Setze das ECMAScript-Ziel auf ES6
+    "module": "commonjs", // Verwende CommonJS für die Modulverwaltung
+    "strict": true, // Aktiviere alle strengen Typ-Überprüfungen
+    "esModuleInterop": true, // Ermöglicht Importe von ES6-Modulen
+    "skipLibCheck": true, // Überspringe Typ-Überprüfungen in .d.ts-Dateien
+    "forceConsistentCasingInFileNames": true,
+    "outDir": "./dist" // Ausgabeverzeichnis für kompilierte Dateien
+  },
+  "include": ["index.ts", "src/**/*"], // Welche Dateien sollen kompiliert werden
+  "exclude": ["node_modules"] // Welche Dateien sollen ausgeschlossen werden
+}
